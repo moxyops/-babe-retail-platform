@@ -1,0 +1,24 @@
+{
+  "2026-01": {
+    "MESA RIM CLIMBING CENTER|405 CAMINO DEL RIO S": {
+      "visited": true,
+      "date": "2026-04-13",
+      "notes": "huahuauhua",
+      "has_action": true,
+      "action": "huahua",
+      "followup": "kkkk",
+      "forwarded": false,
+      "forwarded_date": null
+    },
+    "BREAKERS MARKET-PLNU|3900 LOMALAND DR": {
+      "visited": true,
+      "date": "2026-04-13",
+      "notes": "jjjjjj",
+      "has_action": true,
+      "action": "kkkk",
+      "followup": "",
+      "forwarded": false,
+      "forwarded_date": null
+    }
+  }
+}

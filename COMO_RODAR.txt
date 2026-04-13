@@ -1,0 +1,94 @@
+============================================================
+  BABE KOMBUCHA — Plataforma de Visitas ao Varejo
+  INSTRUÇÕES DE INSTALAÇÃO E USO
+============================================================
+
+PASSO 1 — INSTALAR O PYTHON
+─────────────────────────────
+1. Acesse: https://www.python.org/downloads/
+2. Clique em "Download Python 3.12.x" (o botão amarelo grande)
+3. Execute o instalador baixado
+4. IMPORTANTE: na primeira tela do instalador, marque a caixa
+   "Add Python to PATH" antes de clicar em Install Now
+5. Aguarde a instalação terminar
+
+
+PASSO 2 — ABRIR O TERMINAL (Prompt de Comando)
+───────────────────────────────────────────────
+- Pressione a tecla Windows + R
+- Digite: cmd
+- Pressione Enter
+
+
+PASSO 3 — NAVEGAR ATÉ A PASTA DO PROJETO
+──────────────────────────────────────────
+No terminal, digite o comando abaixo e pressione Enter:
+
+  cd "C:\Users\lisia\OneDrive\Documentos\Claude\Projects\Babe Kombucha\retail_platform"
+
+(Se precisar mudar para outro lugar, ajuste o caminho acima)
+
+
+PASSO 4 — INSTALAR AS DEPENDÊNCIAS (só na primeira vez)
+─────────────────────────────────────────────────────────
+No terminal, digite e pressione Enter:
+
+  pip install -r requirements.txt
+
+Aguarde o download e instalação (pode demorar 1-2 minutos).
+
+
+PASSO 5 — COPIAR A PLANILHA JOHN LENORE PARA ESTA PASTA
+─────────────────────────────────────────────────────────
+Copie o arquivo "John Lenore Sales Mar26 v2.xlsx" (ou a versão
+mais atual) para dentro desta pasta:
+
+  C:\Users\lisia\OneDrive\Documentos\Claude\Projects\Babe Kombucha\retail_platform\
+
+Obs: a plataforma procura automaticamente por arquivos .xlsx
+com "lenore" ou "john" no nome.
+
+
+PASSO 6 — RODAR A PLATAFORMA
+──────────────────────────────
+No terminal (ainda na pasta do projeto), digite e pressione Enter:
+
+  streamlit run app.py
+
+O navegador abrirá automaticamente com a plataforma!
+Se não abrir sozinho, copie o endereço que aparecer no terminal
+(algo como http://localhost:8501) e cole no navegador.
+
+
+PARA PARAR A PLATAFORMA
+─────────────────────────
+No terminal, pressione: Ctrl + C
+
+
+============================================================
+  DÚVIDAS FREQUENTES
+============================================================
+
+"pip não é reconhecido como comando"
+→ O Python não foi adicionado ao PATH. Reinstale o Python
+  marcando a opção "Add Python to PATH".
+
+"ModuleNotFoundError"
+→ Rode novamente: pip install -r requirements.txt
+
+"A planilha não aparece na lista"
+→ Certifique-se que o arquivo .xlsx está na mesma pasta
+  que o app.py
+
+============================================================
+  USANDO NO CURSOR (para melhorias futuras)
+============================================================
+1. Abra o Cursor
+2. File → Open Folder → selecione esta pasta (retail_platform)
+3. O arquivo app.py contém todo o código, com comentários
+   em português explicando cada parte
+4. Descreva para a IA do Cursor o que você quer mudar
+   (ex: "adicione um gráfico de barras mostrando as vendas
+   mensais do varejista selecionado")
+
+============================================================
