@@ -1,0 +1,14 @@
+*.xlsx
+*.xls
+*.pdf
+_temp_mensal.xlsx
+visitas.json
+geo_cache*.json
+mapa_top55.html
+agenda_visitas.json
+__pycache__/
+*.pyc
+venv/
+.venv/
+.DS_Store
+Thumbs.db
